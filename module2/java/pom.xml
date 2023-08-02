@@ -1,0 +1,17 @@
+<project>
+    <groupId>com.example</groupId>
+    <artifactId>module2</artifactId>
+    <version>1.0.0</version>
+    <modules>
+        <module>submodule3</module>
+        <module>submodule4</module>
+    </modules>
+    <profiles>
+        <profile>
+            <id>test</id>
+            <modules>
+                <module>testmodule3</module>
+            </modules>
+        </profile>
+    </profiles>
+</project>
