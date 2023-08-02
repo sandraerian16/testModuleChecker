@@ -14,5 +14,12 @@
                 <module>testmodule2</module>
             </modules>
         </profile>
+         <profile>
+            <id>sandra</id>
+            <modules>
+                <module>testmodule56</module>
+                <module>testmodule657</module>
+            </modules>
+        </profile>
     </profiles>
 </project>
